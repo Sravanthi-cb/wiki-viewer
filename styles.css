@@ -1,0 +1,52 @@
+body {
+	font-family: 'Anton', sans-serif;
+}
+.jumbotron {
+	text-align: center;
+    background-image: url('wikipedia.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: Transparent;
+	color:  #0C090A;
+	margin-top: 10px;	
+}
+
+.heading a{
+	display: inline-block;
+	border: 5px solid white;
+}
+
+a { color: inherit;
+}
+#output{
+	margin-top:1%;
+	font-family: 'Anton', sans-serif;
+	color:  #0C090A;
+}
+
+.wrapper {
+    border:1px solid #000;
+    display:inline-block;
+}
+
+input,button {
+    background-color:transparent;
+    border:0;
+}
+.fa:hover {
+	color: #fff;
+}
+.image{
+	background-image: url('wikipedia.jpg');
+	overflow: auto;
+	width: 100%;  
+    position: relative;
+	padding: 25px 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+
+
+
