@@ -16,7 +16,7 @@ $(document).ready(function(){
         success: function (data, textStatus, jqXHR) {
           $('#output').html('');
           for(var i=0;i<data[1].length;i++){
-            $('#output').prepend("<div><div class='image'><a href="+data[3][i]+"><h2>" + data[1][i]+ "</h2>" + "<p>" + data[2][i] + "</p></a></div><br></div>" );        
+            $('#output').prepend("<div><div class='image'><a  target='_blank' href="+data[3][i]+"><h2>" + data[1][i]+ "</h2>" + "<p>" + data[2][i] + "</p></a></div><br></div>" );        
           }    
    $("#searchTerm").val('');
         },
